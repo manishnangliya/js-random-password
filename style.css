@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 500px;
+    background-color: #2980b9;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+    border: transparent;
+    padding: 15px;
+    color: white;
+}
+#passBox{
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    text-align: center;
+}
+.constaint{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#total-char{
+    text-align: center;
+}
+#btn{
+    border-radius: 5px;
+    border: transparent;
+    width: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+#btn2{
+    border-radius: 5px;
+    border: transparent;
+    width: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+#btn2 :hover{
+    transition: 0.3s;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="box">
+            <input id="passBox" type="text" readonly>
+            <div class="constaint">
+                <label for="total-char">Password Length</label>
+                <input id="total-char" type="number" min="6" value="6"><br>
+                <label for="upper-case">Contains Uppercase</label>
+                <input id = "upper-case"type="checkbox" checked><br>
+
+                <label for="lower-case">Contains Lowercase</label>
+                <input id = "lower-case" type="checkbox"><br>
+
+                <label for="number">Contains Number</label>
+                <input id = "number" type="checkbox" checked><br>
+
+                <label for="symbol">Contains Symbols</label>
+                <input id = "symbol" type="checkbox" checked><br>
+                <div class="button">
+                    <button id="btn"> Generate </button>
+                    <button id="btn2"> Copy </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
